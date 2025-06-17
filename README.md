@@ -96,4 +96,10 @@ Please adhere to our project's [Code of Conduct](https://github.com/SylverbladeX
 
 This project is distributed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-🔗 Back to Wiki Home 🔗 Valorium X Simulator - Documentation
+## 🔗 Navigation  
+
+[🔙 Back to Wiki Home](https://github.com/SylverbladeX/ValoriumX/wiki)  
+[📄 Valorium X Simulator - Documentation](https://github.com/SylverbladeX/ValoriumX-Simulator/blob/main/)  
+
+Find all the essential information about the Valorium X Simulator, including its functionality, strategic objectives, and upcoming development phases. 🚀✨  
+
