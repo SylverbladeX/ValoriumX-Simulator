@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/SylverbladeX/ValoriumX/tree/main/pictures/vlrx-logo-min.jpg" alt="Valorium X Logo" width="120"/>
+  <img src="https://github.com/SylverbladeX/ValoriumX/blob/main/pictures/vlrx-logo-min.jpg" alt="Valorium X Logo" width="450"/>
 </p>
 
 <h1 align="center">Valorium X - Python Simulator</h1>
