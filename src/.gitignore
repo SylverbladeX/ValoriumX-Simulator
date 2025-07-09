@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environnements virtuels
+venv/
+env/
+
+# Fichiers temporaires
+*.log
+
+# Autres fichiers à ignorer
+CopilotIndices/
+FileContentIndex/
+*.db
+.slnx.sqlite
+VSWorkspaceState.json

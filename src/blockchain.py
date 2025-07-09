@@ -1,12 +1,16 @@
 # ==============================================================================
 # File: blockchain.py
-# Module 3 of the Valorium X Simulator
-# Version: 2.0
-# Last Updated: 2025-06-20
+# Module: Valorium X Simulator – Blockchain Core
+# Version: 2.1
+# Last Updated: 2025-07-09
 #
-# This module defines the Blockchain class, which manages the chain of blocks,
-# state (balances), pending transactions, and validation logic.
-# Architect: Sylver Blade
+# Description:
+#   This module defines the Blockchain class, which manages the chain of blocks,
+#   state (balances), pending transactions, and validation logic for the Valorium X
+#   simulation environment.
+#
+# Authors: Sylver Blade
+# Contributors: Gemini
 # ==============================================================================
 
 import time

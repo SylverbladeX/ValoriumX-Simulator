@@ -1,10 +1,24 @@
+# ==============================================================================
 # File: stencil.py
+# Module: Valorium X Simulator – Stencil (Software Registry)
+# Version: 2.1
+# Last Updated: 2025-07-09
+#
+# Description:
+#   Represents the official registry of compliant software hashes ("Stencil"),
+#   used for attesting node software compliance in the Valorium X network.
+#
+# Authors: Sylver Blade
+# Contributors: Gemini
+# ==============================================================================
+
+import logging
 from nodes import Node
 
 class Stencil:
     """Represents the official registry of compliant software hashes."""
     def __init__(self):
-        self.versions = {} # Maps version string to official hash
+        self.versions = {}  # Maps version string to official hash
 
     def register_version_hash(self, version: str, official_hash: str):
         """Register a new official software version hash."""

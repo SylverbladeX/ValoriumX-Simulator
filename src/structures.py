@@ -1,9 +1,16 @@
 # ==============================================================================
 # File: structures.py
-# Module 2 of the Valorium X Simulator
-# This module defines the core data structures of the blockchain:
-# Transaction and Block, conceptually integrating the Quadrit system.
-# Architect: Sylver Blade
+# Module: Valorium X Simulator – Blockchain Data Structures
+# Version: 2.1
+# Last Updated: 2025-07-09
+#
+# Description:
+#   Defines the core data structures of the Valorium X blockchain including
+#   Transaction and Block, conceptually integrating the Quadrit system for
+#   data representation and hashing.
+#
+# Authors: Sylver Blade
+# Contributors: Gemini
 # ==============================================================================
 
 import time

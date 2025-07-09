@@ -1,9 +1,17 @@
 # ==============================================================================
 # File: simulator_v10.py
-# Valorium X: Python Simulator - Quadrit Encoding Integration
-# This version integrates the Quadrit system into the core data structures,
-# directly addressing a key recommendation from technical audits.
-# Architect: Sylver Blade, assisted by Gemini
+# Module: Valorium X Simulator – Quadrit Encoding Integration
+# Version: 2.1
+# Last Updated: 2025-07-09
+#
+# Description:
+#   Valorium X: Python Simulator - Quadrit Encoding Integration
+#   This version integrates the Quadrit system into the core data structures,
+#   directly addressing a key recommendation from technical audits. Illustrates
+#   quadrit-based hashing for transactions and demonstrates end-to-end integrity.
+#
+# Authors: Sylver Blade
+# Contributors: Gemini
 # ==============================================================================
 
 import hashlib
@@ -98,7 +106,7 @@ if __name__ == "__main__":
     print("\n[Step 2] Serializing transaction data into Quadrits...")
     tx_quadrits = QuadritEncoder.string_to_quadrits(tx.get_serialized_string())
     print(f"  - Transaction data converted into a sequence of {len(tx_quadrits)} Quadrits.")
-    print(f"  - Preview (first 24 Quadrits): {[q.name for q in tx_quadrits[:20]]}...")
+    print(f"  - Preview (first 20 Quadrits): {[q.name for q in tx_quadrits[:20]]}...")
 
     # 3. Calculate the hash based on this Quadrit sequence
     print("\n[Step 3] Calculating the transaction hash from the Quadrit sequence...")

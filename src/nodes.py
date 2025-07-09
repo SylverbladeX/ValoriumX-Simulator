@@ -1,5 +1,21 @@
+# ==============================================================================
 # File: nodes.py
-import time, random
+# Module: Valorium X Simulator – Node and Consensus Logic
+# Version: 2.1
+# Last Updated: 2025-07-09
+#
+# Description:
+#   Defines the Node, ValidatorNode, and NeuralNode classes for the Valorium X network.
+#   Includes simulation of honest and malicious neural nodes, RNA transcription, and
+#   CIP attestation logic.
+#
+# Authors: Sylver Blade
+# Contributors: Gemini
+# ==============================================================================
+
+import time
+import random
+import logging
 from quadrits import hash_data
 from structures import RnaTemplate, CipAttestation, CipProof
 
@@ -35,4 +51,3 @@ class NeuralNode(Node):
         else:
             logging.warning(f"MALICIOUS NODE {self.address} is creating a FAKE proof!")
             return CipAttestation(CipProof("fake_rna", hash_data("fake_anchors")), self.address)
-

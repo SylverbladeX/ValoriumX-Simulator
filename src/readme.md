@@ -5,6 +5,8 @@
 
 Valorium X is a bio-inspired blockchain simulator (“First Helix”) designed to explore innovative consensus models and cryptographic systems.
 
+---
+
 ## 🚀 Vision
 
 - **Biomimetics**: RNA/CIP/Block workflow inspired by natural processes
@@ -20,18 +22,22 @@ cd ValoriumX-Simulator
 python main.py
 ```
 
+> **Requirements:**  
+> - Python 3.8+  
+> - See [`requirements.txt`](requirements.txt) if present
+
 ## 🛠️ Usage Modes
 
 - **Bio-inspired mode** (RNA/CIP workflow)
 - **Simple mode** (classic Quadrit mining)
 
 > Set the mode in `main.py`:  
-> `MODE = "bio"` or `"simple"`
+> `MODE = "bio"` or `MODE = "simple"`
 
 ## 🧬 Documentation
 
-- See the `/docs` folder for VIPs (Valorium Improvement Proposals)
-- See `CONTRIBUTING.md` for how to participate and propose ideas
+- See the [`/docs`](docs/) folder for VIPs (Valorium Improvement Proposals)
+- See [`CONTRIBUTING.md`](CONTRIBUTING.md) for how to participate and propose ideas
 
 ## 🤝 Contributing
 
@@ -41,3 +47,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## 📜 License
 
 MIT License (see [LICENSE](LICENSE)).
+
+---
